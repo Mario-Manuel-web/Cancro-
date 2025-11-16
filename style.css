@@ -1,0 +1,52 @@
+:root{
+
+--azulc: #A7C7E7;
+--azulm: #4682b4;
+--cinza: #f5f5f5;
+--branco: #FFF;
+--preto: #333;
+
+}
+
+*{
+    margin: 0px;
+}
+
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: var(--azulc);
+}
+
+main{
+    min-width: none;
+    max-width: 800px;
+    margin: auto;
+    text-align: justify;
+    background-color: var(--azulc);
+    padding: 10px;
+}
+h2{
+    color: var(--azulm);
+    padding: 10px;
+}
+
+p, ul, ol{
+    color: var(--preto);
+    text-indent: 10px;
+}
+
+header{
+    padding: 10px;
+    background-color: var(--azulm);
+    text-align: center;
+    border-radius: 0px 0px 10px 10px;
+}
+
+header h1{
+    color: var(--cinza);
+}
+
+p#autor{
+    text-align: right;
+    color: var(--azulc);
+}
